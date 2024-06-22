@@ -1,0 +1,10 @@
+h3 {
+  color: var(--color-offwhite);
+  margin: 0 0 1rem;
+  transition: all 0.25s;
+
+  &:hover {
+    color: var(--color-primary-orange);
+    cursor: pointer;
+  }
+}

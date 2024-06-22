@@ -1,0 +1,13 @@
+@use "../../styles/global.scss" as g;
+
+.p1,
+.p2 {
+  font-size: var(--font-paragraph);
+  color: var(--color-dark-grayish-blue);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.p2 {
+  color: var(--color-grayish-blue);
+}

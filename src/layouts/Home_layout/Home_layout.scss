@@ -1,0 +1,28 @@
+@use "../../styles/global.scss" as g;
+
+.home-layout {
+  display: grid;
+  gap: 3rem;
+  margin: 0 1.5rem;
+
+  @include g.desktop {
+    margin: 0;
+
+    .section1 {
+      grid-area: s1;
+    }
+
+    .section2 {
+      grid-area: s2;
+    }
+
+    .section3 {
+      grid-area: s3;
+    }
+
+    grid-template-areas:
+      "n n n"
+      "s1 s1 s2"
+      "s3 s3 s3";
+  }
+}

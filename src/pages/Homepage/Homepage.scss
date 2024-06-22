@@ -1,0 +1,8 @@
+@use "../../styles/global.scss" as g;
+
+.homepage {
+  max-width: 100%;
+  @include g.desktop {
+    margin: 0 9.375rem;
+  }
+}

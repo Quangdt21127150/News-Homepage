@@ -1,0 +1,15 @@
+.card {
+  display: flex;
+  gap: 1.5rem;
+
+  img {
+    display: block;
+    height: 6.875rem;
+  }
+
+  article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

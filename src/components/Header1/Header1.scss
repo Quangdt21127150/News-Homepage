@@ -1,0 +1,12 @@
+@use "../../styles/global.scss" as g;
+
+h1 {
+  font-size: 36px;
+  font-weight: var(--font-extra-bold);
+  line-height: 1.1;
+  margin: 0;
+
+  @include g.desktop {
+    font-size: 50px;
+  }
+}

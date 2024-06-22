@@ -1,0 +1,15 @@
+@use "../../styles/global.scss" as g;
+
+aside {
+  display: flex;
+  background-color: var(--color-very-dark-blue);
+  padding: 2rem 1rem 0;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  gap: 2rem;
+
+  @include g.desktop {
+    gap: 1.5rem;
+  }
+}

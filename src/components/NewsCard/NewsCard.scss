@@ -1,0 +1,6 @@
+.news-card {
+  padding-bottom: 1.6rem;
+  &:not(:last-child) {
+    border-bottom: 1px solid var(--color-offwhite);
+  }
+}

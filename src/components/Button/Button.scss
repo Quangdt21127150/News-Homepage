@@ -1,0 +1,19 @@
+button {
+  display: inline-block;
+  font-size: 15px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  padding: 0.75rem 1.875rem;
+  transition: all 0.25s;
+  background-color: var(--color-primary-red);
+  color: var(--color-very-dark-blue);
+  font-weight: var(--font-bold);
+  outline: none;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    color: var(--color-offwhite);
+    background-color: var(--color-very-dark-blue);
+  }
+}

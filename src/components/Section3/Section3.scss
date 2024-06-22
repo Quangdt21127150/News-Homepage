@@ -1,0 +1,14 @@
+@use "../../styles/global.scss" as g;
+
+.bottom-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 0 0 4.8rem 0;
+  gap: 3rem;
+
+  @include g.desktop {
+    flex-direction: row;
+    gap: 2.5rem;
+  }
+}
